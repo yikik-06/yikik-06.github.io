@@ -71,24 +71,22 @@ const PRODUCTS = [
     sub: '15 Languages & 20 Currencies',
     desc: 'Monthly payment, total repayment and a full amortization schedule, instantly.',
     chips: ['15 Languages', '20 Currencies', 'Payment schedule'],
-    demo: 'https://github.io', gum: 'https://gumroad.com', lemon: 'https://lemonsqueezy.com'
-  },
+    demo: 'https://github.io', gum: 'https://gumroad.com',
   {
     icon: '🛒', grad: 'from-pink-500 via-fuchsia-500 to-violet-500',
     name: 'Fun Animated Shopping List',
     sub: 'iPad Pencil Feel & 15 Languages',
     desc: 'Cross items out with a hand-drawn stroke, a satisfying tick sound and tiny confetti.',
     chips: ['Pencil animation', '15 Languages', 'Saves automatically'],
-    demo: 'https://github.io', gum: 'https://gumroad.com', lemon: 'https://lemonsqueezy.com'
-  },
+    demo: 'https://github.io', gum: 'https://gumroad.com',
   {
     icon: '📈', grad: 'from-indigo-500 via-blue-500 to-sky-500',
     name: 'Smart Wealth & Budget Planner',
     sub: '15 Languages & 20 Currencies',
     desc: 'Split your income with smart rules, then tune every percentage with live sliders.',
     chips: ['15 Languages', '20 Currencies', 'Live progress bars'],
-    demo: 'https://github.io', gum: 'https://gumroad.com', lemon: 'https://lemonsqueezy.com'
-  }
+    demo: 'https://github.io', gum: 'https://gumroad.com', 
+ 
 ];
 
 document.getElementById('grid').innerHTML = PRODUCTS.map(p => `
@@ -112,7 +110,7 @@ document.getElementById('grid').innerHTML = PRODUCTS.map(p => `
         <p class="mb-2 mt-4 text-center text-xs font-bold uppercase tracking-wider text-slate-400">Buy ($2)</p>
         <div class="grid grid-cols-2 gap-2">
           <a href="${p.gum}" target="_blank" rel="noopener noreferrer" class="buy-btn rounded-2xl px-2 py-3 text-center text-sm font-extrabold text-white">🚀 Gumroad</a>
-          <a href="${p.lemon}" target="_blank" rel="noopener noreferrer" class="buy-btn-lemon rounded-2xl px-2 py-3 text-center text-sm font-extrabold text-white">🍋 Lemon Squeezy</a>
+    
         </div>
       </div>
     </div>
